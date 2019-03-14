@@ -12,4 +12,9 @@ libraryDependencies ++= Seq(
   "com.typesafe.akka"           %% "akka-persistence" % "2.4.0",
   "org.iq80.leveldb"            % "leveldb"           % "0.7",
 
-  "com.typesafe.akka" %% "akka-cluster" % "2.4.0")
+  //cluster dependencies
+  "com.typesafe.akka" %% "akka-cluster" % "2.4.0",
+
+  //test dependencies
+  "org.scalatest" %% "scalatest" % "2.2.1" % "test",
+  "com.typesafe.akka" %% "akka-testkit" % "2.4.0" % "test")
